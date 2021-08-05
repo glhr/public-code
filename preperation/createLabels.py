@@ -11,8 +11,8 @@ from imageio import imread, imsave
 import numpy as np
 from numpngw import write_png
 
-from json2labelImg import json2labelImg
-from json2instanceImg import json2instanceImg
+from preperation.json2labelImg import json2labelImg
+from preperation.json2instanceImg import json2instanceImg
 
 
 from tqdm import tqdm
